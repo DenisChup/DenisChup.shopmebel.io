@@ -1,0 +1,158 @@
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .top__cat {
+    background-position: -305px;
+  }
+
+  .header {
+    padding-top: 32px;
+    border-bottom: none;
+
+    &__input {
+      display: none;
+    }
+
+    &__logo-img {
+      width: 99px;
+    }
+  }
+  .nav {
+    display: none;
+  }
+  .menu-mob {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .top {
+    background-position: -133px;
+
+    &__cart {
+      background-position: -748px;
+    }
+
+    &__heading {
+      font-size: 48px;
+      text-align: center;
+      margin-top: 29px;
+    }
+
+    &__slogan {
+      font-size: 16px;
+      text-align: center;
+    }
+    &__link {
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+    }
+    
+  }
+  .product__heading {
+    font-size: 24px;
+  }
+
+  .for {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+
+    &__item {
+      grid-column: 1 / -1;
+      height: 375px;
+      font-size: 28px;
+      &_big {
+        height: 244px;
+      }
+    }
+  }
+
+  .product {
+    margin-top: 32px;
+
+    &__heading {
+      font-size: 24px;
+      margin-top: 32px;
+    }
+    &__title {
+      font-size: 18px;
+    }
+
+    &__price_box {
+      font-size: 18px;
+    }
+
+    &__img {
+      height: 227px;
+      width: 343px;
+    }
+  }
+
+  .footer {
+    padding-bottom: 32px;
+
+    &__content {
+      justify-content: center;
+      gap: 32px;
+    }
+
+    &__info {
+      gap: 100px;
+    }
+  }
+  .cat__heading {
+    width: 343px;
+    height: 59px;
+    font-size: 48px;
+  }
+  .catnav__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-size: 14px;
+    padding-top: 32px;
+  }
+  .cart {
+    &__name-box {
+      display: none;
+    }
+
+    &__item-img {
+      display: none;
+    }
+
+    &__name {
+      font-size: 18px;
+    }
+
+    &__text {
+      font-size: 13px;
+      width: 251px;
+    }
+
+    &__price {
+      font-size: 12px;
+    }
+    &__button {
+      width: 166px;
+      height: 37px;
+      font-size: 12px;
+      line-height: 15px;
+    }
+
+    &__button_form {
+      font-size: 16px;
+      width: 290px;
+      height: 41px;
+    }
+  }
+
+  .link__go {
+    display: none;
+  }
+}
